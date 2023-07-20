@@ -4,7 +4,8 @@
   "info": {
     "singularName": "download-link",
     "pluralName": "download-links",
-    "displayName": "Download Link"
+    "displayName": "Download Link",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
+      "type": "string"
+    },
+    "url": {
       "type": "string"
     }
   }

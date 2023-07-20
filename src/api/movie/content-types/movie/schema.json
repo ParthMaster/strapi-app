@@ -4,7 +4,8 @@
   "info": {
     "singularName": "movie",
     "pluralName": "movies",
-    "displayName": "Movie"
+    "displayName": "Movie",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -70,6 +71,15 @@
     },
     "is_season": {
       "type": "boolean"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "screenshots": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::screenshot.screenshot",
+      "mappedBy": "Movie"
     }
   }
 }

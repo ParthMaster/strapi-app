@@ -4,7 +4,8 @@
   "info": {
     "singularName": "screenshot",
     "pluralName": "screenshots",
-    "displayName": "Screenshot"
+    "displayName": "Screenshot",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,15 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "Movie": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::movie.movie",
+      "inversedBy": "screenshots"
     }
   }
 }
