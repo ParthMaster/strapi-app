@@ -13,6 +13,63 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "description1": {
+      "type": "richtext"
+    },
+    "description2": {
+      "type": "richtext"
+    },
+    "release_date": {
+      "type": "datetime"
+    },
+    "sort_title": {
+      "type": "string"
+    },
+    "imdb_rating": {
+      "type": "decimal"
+    },
+    "info_title": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "quality": {
+      "type": "string"
+    },
+    "season": {
+      "type": "string"
+    },
+    "episode": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "released_year": {
+      "type": "string"
+    },
+    "episode_size": {
+      "type": "string"
+    },
+    "complete_zip": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "synopsis": {
+      "type": "richtext"
+    },
+    "starring": {
+      "type": "richtext"
+    },
+    "movie_created_by": {
+      "type": "string"
+    },
+    "is_season": {
+      "type": "boolean"
     }
   }
 }
