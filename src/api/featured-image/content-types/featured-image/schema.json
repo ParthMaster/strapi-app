@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_images",
+  "info": {
+    "singularName": "featured-image",
+    "pluralName": "featured-images",
+    "displayName": "Featured Image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
