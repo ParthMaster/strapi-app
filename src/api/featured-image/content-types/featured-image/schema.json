@@ -14,6 +14,24 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "main": {
+      "type": "string"
+    },
+    "size_300w": {
+      "type": "string"
+    },
+    "size_200w": {
+      "type": "string"
+    },
+    "size_165w": {
+      "type": "string"
+    },
+    "Movie": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::movie.movie",
+      "inversedBy": "featured_images"
     }
   }
 }

@@ -80,6 +80,12 @@
       "relation": "oneToMany",
       "target": "api::screenshot.screenshot",
       "mappedBy": "Movie"
+    },
+    "featured_images": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::featured-image.featured-image",
+      "mappedBy": "Movie"
     }
   }
 }
