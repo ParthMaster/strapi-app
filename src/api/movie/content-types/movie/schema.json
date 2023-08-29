@@ -88,6 +88,12 @@
       "relation": "oneToMany",
       "target": "api::featured-image.featured-image",
       "mappedBy": "Movie"
+    },
+    "genres": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::genre.genre",
+      "mappedBy": "Movie"
     }
   }
 }
